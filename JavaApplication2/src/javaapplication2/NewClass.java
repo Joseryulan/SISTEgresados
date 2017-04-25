@@ -42,16 +42,6 @@ public class NewClass {
     return this.id;
     }
     
-    private String tipodocumento;
-    public void setTipodocumento(String tipodocumentopara)
-    {
-    this.tipodocumento=tipodocumentopara;
-    }
-    public  String getTipodocumento()
-    {
-    return this.tipodocumento;
-    }
-    
 }
 
 
