@@ -23,4 +23,18 @@ public class Persona_1 {
     {
     System.out.print(ropa+"desgaste");
     }
+    private String nombre;
+    public void setNombre(String nombreparametro)
+    {
+    this.nombre=nombreparametro;
+    }
+    public String getNombre()
+    {
+    return this.nombre;
+    }
+    public void andar()
+    {
+    System.out.print(nombre+"esta caminando");
+    }
+    
 }
